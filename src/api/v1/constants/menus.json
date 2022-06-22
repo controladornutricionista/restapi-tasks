@@ -1,41 +1,257 @@
 [
   {
     "name": "Hamburguesa La Suprema",
-    "sku": "hamburguesa"
+    "sku": "hamburguesa-la-suprema",
+    "precio":13,
+    "extras":[
+        {
+            "name":"carne",
+            "precio":4,
+            "cantidad":1
+        },
+        {
+            "name":"chorizo",
+            "precio":3,
+            "cantidad":1
+        },
+        {
+            "name":"parilla",
+            "precio":4,
+            "cantidad":1
+        },
+        {
+            "name":"queso",
+            "precio":2,
+            "cantidad":1
+        }
+    ],
+    "img": "uploads/",
+    "gaseosas":[
+        {
+            "name": "gaseosa pequeña",
+            "precio":2
+        },
+        {
+            "name": "gaseosa mediana",
+            "precio":4
+        },
+        {
+            "name": "gaseosa grande",
+            "precio":6
+        }
+    ]
   },
   {
     "name": "Hamburguesa Combo Kid",
-    "sku": "hamburguesa"
+    "sku": "hamburguesa-combo-kid",
+    "precio":6,
+    "extras":[
+        {
+            "name":"carne",
+            "precio":4,
+            "cantidad":1
+        },
+        {
+            "name":"queso",
+            "precio":2,
+            "cantidad":1
+        }
+    ],
+    "img": "uploads/",
+    "gaseosas":[
+        {
+            "name": "gaseosa pequeña",
+            "precio":2
+        },
+        {
+            "name": "gaseosa mediana",
+            "precio":4
+        },
+        {
+            "name": "gaseosa grande",
+            "precio":6
+        }
+    ]
+
   },
   {
-    "name": "Hamburguesa La Suprema",
-    "sku": "hamburguesa"
+    "name": "Hamburguesa Mc Ronal",
+    "sku": "hamburguesa-mc-ronal",
+    "precio":9,
+    "extras":[
+        {
+            "name":"carne",
+            "precio":4,
+            "cantidad":1
+        },
+        {
+            "name":"chorizo",
+            "precio":3,
+            "cantidad":1
+        },
+        {
+            "name":"queso",
+            "precio":2,
+            "cantidad":1
+        }
+    ],
+    "img": "uploads/",
+    "gaseosas":[
+        {
+            "name": "gaseosa pequeña",
+            "precio":2
+        },
+        {
+            "name": "gaseosa mediana",
+            "precio":4
+        },
+        {
+            "name": "gaseosa grande",
+            "precio":6
+        }
+    ]
   },
 
   {
     "name": "Salchipapa Tradicional",
-    "sku": "salchipapa tradicional"
+    "sku": "salchipapa-tradicional",
+    "precio":6,
+    "gaseosas":[
+        {
+            "name": "gaseosa pequeña",
+            "precio":2
+        },
+        {
+            "name": "gaseosa mediana",
+            "precio":4
+        },
+        {
+            "name": "gaseosa grande",
+            "precio":6
+        }
+    ]
   },
 
   {
     "name": "Salchipapa Frank",
-    "sku": "salchipapa frank"
+    "sku": "salchipapa-frank",
+    "precio":8,
+    "extras":[
+        {
+            "name":"huevo",
+            "precio":2,
+            "cantidad":1
+        }
+    ],
+    "gaseosas":[
+        {
+            "name": "gaseosa pequeña",
+            "precio":2
+        },
+        {
+            "name": "gaseosa mediana",
+            "precio":4
+        },
+        {
+            "name": "gaseosa grande",
+            "precio":6
+        }
+    ]
   },
   {
     "name": "Salchipapa La Mortal",
-    "sku": "salchipapa la mortal"
+    "sku": "salchipapa-la-mortal",
+    "precio":12,
+    "extras":[
+        {
+            "name":"huevo",
+            "precio":2,
+            "cantidad":1
+        },
+        {
+            "name":"papas",
+            "precio":4,
+            "cantidad":1
+        },
+        {
+            "name":"hotdog",
+            "precio":3,
+            "cantidad":1
+        },
+        {
+            "name":"parilla",
+            "precio":4,
+            "cantidad":1
+        }
+    ],
+    "gaseosas":[
+        {
+            "name": "gaseosa pequeña",
+            "precio":2
+        },
+        {
+            "name": "gaseosa mediana",
+            "precio":4
+        },
+        {
+            "name": "gaseosa grande",
+            "precio":6
+        }
+    ]
   },
 
   {
     "name": "Broaster Pecho",
-    "sku": "broaster pecho"
+    "sku": "broaster-pecho",
+    "gaseosas":[
+        {
+            "name": "gaseosa pequeña",
+            "precio":2
+        },
+        {
+            "name": "gaseosa mediana",
+            "precio":4
+        },
+        {
+            "name": "gaseosa grande",
+            "precio":6
+        }
+    ]
   },
   {
     "name": "Broaster Pierna",
-    "sku": "broaster pierna"
+    "sku": "broaster-pierna",
+    "gaseosas":[
+        {
+            "name": "gaseosa pequeña",
+            "precio":2
+        },
+        {
+            "name": "gaseosa mediana",
+            "precio":4
+        },
+        {
+            "name": "gaseosa grande",
+            "precio":6
+        }
+    ]
   },
   {
     "name": "Broaster Alita",
-    "sku": "broaster alita"
+    "sku": "broaster-alita",
+    "gaseosas":[
+        {
+            "name": "gaseosa pequeña",
+            "precio":2
+        },
+        {
+            "name": "gaseosa mediana",
+            "precio":4
+        },
+        {
+            "name": "gaseosa grande",
+            "precio":6
+        }
+    ]
   }
 ]

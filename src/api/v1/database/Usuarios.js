@@ -14,6 +14,35 @@ const usuarioSchema = new mongoose.Schema({
         type: String,
         required: [true, "La contraseña es requerida!"]
     },
+    nombres: {
+        type: String,
+        default: "",
+        required: [true, "El nombre de la persona es requerido!"]
+    },
+    apellidos: {
+        type: String,
+        default: "bol",
+        required: [true, "Los apellidos de la persona son requeridos!"]
+    },
+    dni: {
+        type: String,
+        required: [true, "El DNI de la persona es requerido!"],
+        default: ''
+    },
+    celular: {
+        type: String,
+        required: false,
+        default: ''
+    },
+    email: {
+        type: String,
+        default: ""
+    },
+    direccion: {
+        type: String,
+        required: [true, "La direccion es requerida"],
+        default: ""
+    },
     rol: {
         ref: 'Roles',
         type: mongoose.Schema.Types.ObjectId,
@@ -27,11 +56,6 @@ const usuarioSchema = new mongoose.Schema({
     imagen: {
         type: Object,
         required: false,
-    },
-    persona: {
-        type: mongoose.Schema.Types.ObjectId,
-        ref: "Personas",
-        required: false
     },
     eliminado: {
         type: Boolean,
