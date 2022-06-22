@@ -1,0 +1,41 @@
+[
+  {
+    "name": "Hamburguesa La Suprema",
+    "sku": "hamburguesa"
+  },
+  {
+    "name": "Hamburguesa Combo Kid",
+    "sku": "hamburguesa"
+  },
+  {
+    "name": "Hamburguesa La Suprema",
+    "sku": "hamburguesa"
+  },
+
+  {
+    "name": "Salchipapa Tradicional",
+    "sku": "salchipapa tradicional"
+  },
+
+  {
+    "name": "Salchipapa Frank",
+    "sku": "salchipapa frank"
+  },
+  {
+    "name": "Salchipapa La Mortal",
+    "sku": "salchipapa la mortal"
+  },
+
+  {
+    "name": "Broaster Pecho",
+    "sku": "broaster pecho"
+  },
+  {
+    "name": "Broaster Pierna",
+    "sku": "broaster pierna"
+  },
+  {
+    "name": "Broaster Alita",
+    "sku": "broaster alita"
+  }
+]

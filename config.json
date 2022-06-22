@@ -1,0 +1,17 @@
+{
+    "timezone": "America/Lima",
+    "mongoURL": "mongodb+srv://administrador:1HB1ohhcInxiebsw@cluster0.ypycx.mongodb.net/bd_menu?retryWrites=true&w=majority",
+    "allowedMedia": "jpeg|jpg|png|gif|mp4|mkv|mp3",
+    "roles": [
+        "admin",
+        "empleado",
+        "cliente"
+    ],
+    "maxSizeUpload": 50,
+    "publicFolder": "public",
+    "publicFolderUploads": "uploads",
+    "secretKey": "TheSuperSecretToken",
+    "expirationJWTTime": 60,
+    "jwtSecret": "TheSuperSecretToken",
+    "port": 3200
+}
