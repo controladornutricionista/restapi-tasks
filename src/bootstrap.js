@@ -6,19 +6,61 @@ const defaultRoles = [
     nombre: "Administrador",
     descripcion: "Rol administrador del sistema",
     color: "#ffbd45",
-    permisos: []
+    permisos: [
+      {
+        nombre: "Inicio",
+        descripcion: "Inicio del aplicativo",
+        rutaPermiso: "InicioPage"
+      },
+      {
+        nombre: "Login",
+        descripcion: "Login del aplicativo",
+        rutaPermiso: "LoginPage"
+      },
+      {
+        nombre: "ListaEmpleados",
+        descripcion: "Empleados del aplicativo",
+        rutaPermiso: "EmpleadosPage"
+      },
+    ]
   }, 
   {
     nombre: "Empleado",
     descripcion: "Empleado del sistema",
     color:"#6089cd",
-    permisos: []
+    permisos: [
+      {
+        nombre: "Inicio",
+        descripcion: "Inicio del aplicativo",
+        rutaPermiso: "InicioPage"
+      },
+      {
+        nombre: "Login",
+        descripcion: "Login del aplicativo",
+        rutaPermiso: "LoginPage"
+      },
+    ]
   },
   {
     nombre: "Cliente",
     descripcion: "Cliente del sistema",
     color:"#975fcd",
-    permisos: []
+    permisos: [
+      {
+        nombre: "Inicio",
+        descripcion: "Inicio del aplicativo",
+        rutaPermiso: "InicioPage"
+      },
+      {
+        nombre: "Login",
+        descripcion: "Login del aplicativo",
+        rutaPermiso: "LoginPage"
+      },{
+        nombre: "Registrar",
+        descripcion: "Registrar cliente del aplicativo",
+        rutaPermiso: "RegistrarPage"
+      }
+    ]
   }
 ]
 
