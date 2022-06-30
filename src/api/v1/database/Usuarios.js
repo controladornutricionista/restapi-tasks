@@ -5,15 +5,6 @@ const { timezone } = require("../../../config")
 const SALT_WORK_FACTOR = 10
 
 const usuarioSchema = new mongoose.Schema({
-    usuario: {
-        type: String,
-        unique: true,
-        required: [true, "El usuario es requerido!"]
-    },
-    contrasena: {
-        type: String,
-        required: [true, "La contraseña es requerida!"]
-    },
     nombres: {
         type: String,
         default: "",
@@ -34,14 +25,19 @@ const usuarioSchema = new mongoose.Schema({
         required: false,
         default: ''
     },
-    email: {
-        type: String,
-        default: ""
-    },
     direccion: {
         type: String,
         required: [true, "La direccion es requerida"],
         default: ""
+    },
+    usuario: {
+        type: String,
+        unique: true,
+        required: [true, "El usuario es requerido!"]
+    },
+    contrasena: {
+        type: String,
+        required: [true, "La contraseña es requerida!"]
     },
     rol: {
         ref: 'Roles',

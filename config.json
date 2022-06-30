@@ -13,5 +13,5 @@
     "secretKey": "TheSuperSecretToken",
     "expirationJWTTime": 60,
     "jwtSecret": "TheSuperSecretToken",
-    "port": 3200
+    "port": 3400
 }
