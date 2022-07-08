@@ -12,7 +12,7 @@ const usuarioSchema = new mongoose.Schema({
     },
     apellidos: {
         type: String,
-        default: "bol",
+        default: "",
         required: [true, "Los apellidos de la persona son requeridos!"]
     },
     dni: {
