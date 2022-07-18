@@ -9,22 +9,22 @@
       {
         "name": "carne",
         "precio": 4,
-        "cantidad": 1
+        "cantidad": 0
       },
       {
         "name": "chorizo",
         "precio": 3,
-        "cantidad": 1
+        "cantidad": 0
       },
       {
         "name": "parilla",
         "precio": 4,
-        "cantidad": 1
+        "cantidad": 0
       },
       {
         "name": "queso",
         "precio": 2,
-        "cantidad": 1
+        "cantidad": 0
       }
     ],
     "img": "uploads/Hamburguesa-Suprema.jpg",
@@ -52,12 +52,12 @@
       {
         "name": "carne",
         "precio": 4,
-        "cantidad": 1
+        "cantidad": 0
       },
       {
         "name": "queso",
         "precio": 2,
-        "cantidad": 1
+        "cantidad": 0
       }
     ],
     "img": "uploads/Hamburguesa-kid.jpg",
@@ -85,17 +85,17 @@
       {
         "name": "carne",
         "precio": 4,
-        "cantidad": 1
+        "cantidad": 0
       },
       {
         "name": "chorizo",
         "precio": 3,
-        "cantidad": 1
+        "cantidad": 0
       },
       {
         "name": "queso",
         "precio": 2,
-        "cantidad": 1
+        "cantidad": 0
       }
     ],
     "img": "uploads/Hamburguesa-MCRonal.jpg",
@@ -147,7 +147,7 @@
       {
         "name": "huevo",
         "precio": 2,
-        "cantidad": 1
+        "cantidad": 0
       }
     ],
     "gaseosas": [
@@ -175,22 +175,22 @@
       {
         "name": "huevo",
         "precio": 2,
-        "cantidad": 1
+        "cantidad": 0
       },
       {
         "name": "papas",
         "precio": 4,
-        "cantidad": 1
+        "cantidad": 0
       },
       {
         "name": "hotdog",
         "precio": 3,
-        "cantidad": 1
+        "cantidad": 0
       },
       {
         "name": "parilla",
         "precio": 4,
-        "cantidad": 1
+        "cantidad": 0
       }
     ],
     "gaseosas": [
