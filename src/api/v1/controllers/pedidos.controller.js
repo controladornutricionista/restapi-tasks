@@ -5,7 +5,7 @@ const httpStatus = require("http-status");
 
 exports.getPedidos = async (req, res, next) => {
   try {
-    const pedidos = await Pedido.find();
+    const pedidos = await Pedido.find().populate("usuario");
     res.status(httpStatus.OK).json({
       message: "Cargo su pedido completo correctamente!",
       body: pedidos,
