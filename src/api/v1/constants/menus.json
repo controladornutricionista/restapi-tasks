@@ -2,7 +2,7 @@
   {
     "name": "Hamburguesa La Suprema",
     "sku": "hamburguesa-la-suprema",
-    "descripcion": "Este producto trae asdasdasdasdasdd",
+    "descripcion": "Esta hamburguesa es un producto hecho con ingredientes especiales y la receta secreta de la casa",
     "id": 1,
     "precio": 13,
     "extras": [
