@@ -1,9 +1,23 @@
 const Pedido = require("../database/Pedidos");
-const { listarMenu } = require("./menu.controller")
+const { listarMenu } = require("./menu.controller");
 const menus = require("../constants/menus.json");
 const httpStatus = require("http-status");
 
 exports.getPedidos = async (req, res, next) => {
+  try {
+    const pedidos = await Pedido.find({
+      usuario: req.params.usuarioid,
+    }).populate("usuario");
+    res.status(httpStatus.OK).json({
+      message: "Cargo su pedido completo correctamente!",
+      body: pedidos,
+    });
+  } catch (error) {
+    next(error);
+  }
+};
+
+exports.getAllPedidos = async (req, res, next) => {
   try {
     const pedidos = await Pedido.find().populate("usuario");
     res.status(httpStatus.OK).json({
@@ -14,6 +28,10 @@ exports.getPedidos = async (req, res, next) => {
     next(error);
   }
 };
+
+
+
+
 
 exports.crearPedido = async (req, res, next) => {
   try {
